@@ -7,4 +7,8 @@ cart = [
 print(cart[0][1]["name"]) # bread
 print(cart[0][1]["price"]) # 35
 print(cart[0][1]["qty"]) # 2
-        
+
+
+
+cart[0][1]["name"] = "whole wheat bread" # change name 
+print(cart[0][1]["name"]) # whole wheat bread  
